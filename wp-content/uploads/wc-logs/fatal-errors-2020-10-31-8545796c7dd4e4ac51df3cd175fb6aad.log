@@ -1,0 +1,2 @@
+2020-10-31T23:45:24+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\testsite/wp-content/themes/twentytwenty/classes/class-twentynineteen-svg-icons.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\testsite\wp-content\themes\twentynineteen\functions.php on line 300
+
