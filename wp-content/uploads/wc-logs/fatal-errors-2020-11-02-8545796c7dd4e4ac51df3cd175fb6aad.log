@@ -1,0 +1,4 @@
+2020-11-02T01:45:49+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\testsite/wp-content/themes/newstore/classes/class-twentytwenty-svg-icons.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\testsite\wp-content\themes\twentytwenty\functions.php on line 156
+
+2020-11-02T01:59:53+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\testsite\wp-includes\Requests\Transport\cURL.php on line 163
+

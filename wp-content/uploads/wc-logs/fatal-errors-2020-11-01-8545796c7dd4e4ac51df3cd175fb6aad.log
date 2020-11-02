@@ -1,0 +1,2 @@
+2020-11-01T22:10:10+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\testsite\wp-includes\Requests\Transport\cURL.php on line 163
+
