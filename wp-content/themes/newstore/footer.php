@@ -38,11 +38,11 @@
 					printf(esc_html__( 'Copyright &copy; %1$s %2$s All Right Reserved.', 'newstore' ), esc_html(date_i18n(__('Y', 'newstore'))), get_bloginfo( 'name', 'display')); 
 				?>
 				</span>
-				<span class="sep">|</span>
+				<!-- <span class="sep">|</span>
 				<?php
 					/* translators: 1: Theme name, 2: Theme author. */
 					printf( esc_html__( 'Theme: %1$s by %2$s', 'newstore' ), '<a href="'.esc_url('https://themefarmer.com/free-themes/newstore/').'">NewStore</a>', 'ThemeFarmer' );
-				?>
+				?> -->
 			</div>
 		</div><!-- .site-info -->
 		<a href="#" id="scroll-top" style="display: none;"><i class="fa fa-angle-up"></i></a>
