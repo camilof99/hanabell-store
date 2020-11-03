@@ -293,3 +293,48 @@ if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/class-newstore-wc-widget-products.php';
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+
+/**
+ * Cambio de textos en WooCommerce/WordPress
+ *
+ * @link http://codex.wordpress.org/Plugin_API/Filter_Reference/gettext
+ */
+function my_text_strings( $translated_text, $text, $domain ) {
+	switch ( $translated_text ) {
+		case 'Shop' :
+			$translated_text = __( 'Tienda', 'woocommerce' );
+			break;
+		case 'Filter' :
+			$translated_text = __( 'Filtrar', 'woocommerce' );
+			break;
+		case 'Add to cart' :
+			$translated_text = __( 'Añadir al carrito', 'woocommerce' );
+			break;
+		case 'Show' :
+			$translated_text = __( 'Mostrar', 'woocommerce' );
+			break;
+		case 'Price:' :
+			$translated_text = __( 'Precio:', 'woocommerce' );
+			break;
+		case 'Default sorting' :
+			$translated_text = __( 'Por defecto', 'woocommerce' );
+			break;
+		case 'Sort by popularity' :
+			$translated_text = __( 'Ordenar por popularidad', 'woocommerce' );
+			break;
+		case 'Sort by average rating' :
+			$translated_text = __( 'Ordenar por calificación promedio', 'woocommerce' );
+			break;
+		case 'Sort by latest' :
+			$translated_text = __( 'Ordenar por última', 'woocommerce' );
+			break;
+		case 'Sort by price: low to high' :
+			$translated_text = __( 'Ordenar por precio: de menor a mayor', 'woocommerce' );
+			break;
+		case 'Sort by price: high to low' :
+			$translated_text = __( 'Ordenar por precio: de mayor a menor', 'woocommerce' );
+			break;
+	}
+	return $translated_text;
+}
+add_filter( 'gettext', 'my_text_strings', 20, 3 );

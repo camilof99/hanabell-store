@@ -2,3 +2,11 @@
 
 2020-11-02T01:59:53+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\testsite\wp-includes\Requests\Transport\cURL.php on line 163
 
+2020-11-02T20:51:23+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\testsite\wp-content\themes\newstore\footer.php on line 38
+
+2020-11-02T20:51:32+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\testsite\wp-content\themes\newstore\footer.php on line 38
+
+2020-11-02T20:51:35+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\testsite\wp-content\themes\newstore\footer.php on line 38
+
+2020-11-02T20:51:50+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in C:\xampp\htdocs\testsite\wp-content\themes\newstore\footer.php on line 39
+
